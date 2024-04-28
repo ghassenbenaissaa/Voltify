@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>client</class>
+ <widget class="QDialog" name="client">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1231</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-image: url(:/ICON/4.jpg);</string>
+   </property>
+   <widget class="QWidget" name="page">
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>160</y>
+       <width>281</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #E1E1E1, stop: 0.4 #DDDDDD,
+        stop: 0.5 #D8D8D8, stop: 1.0 #D3D3D3);
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1px 18px 1px 3px;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 20px;
+    border-left-width: 1px;
+    border-left-color: gray;
+    border-left-style: solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 #f0f0f0, stop: 1 #d8d8d8);
+
+}
+QComboBox::down-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 6px 0 6px;
+    border-color: gray transparent transparent transparent;
+}
+
+
+
+
+
+
+QComboBox::hover {
+    background: #d0d0d0;
+}
+
+QComboBox::pressed {
+    background: #c8c8c8;
+}</string>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="spinBox">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>290</y>
+       <width>281</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QSpinBox {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #E1E1E1, stop: 0.4 #DDDDDD,
+        stop: 0.5 #D8D8D8, stop: 1.0 #D3D3D3);
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1px 18px 1px 3px;
+}
+
+QSpinBox::up-button {
+    subcontrol-origin: padding;
+    border-left-color: gray;
+    width: 20px;
+    border-left-style: solid;
+    subcontrol-position: top right;
+    border-down-width: 1px;
+    border-left-width: 1px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 #f0f0f0, stop: 1 #d8d8d8);
+}
+
+QSpinBox::down-button {
+    subcontrol-position: bottom right;
+    subcontrol-origin: padding;
+    border-left-color: gray;
+    width: 20px;
+    border-left-width: 1px;
+    border-up-width: 1px;
+    border-left-style: solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 #f0f0f0, stop: 1 #d8d8d8);
+}
+
+QSpinBox::up-button:hover, QSpinBox::down-button:hover {
+    background-color: #F0F0F0;
+}
+
+
+QSpinBox::up-arrow {
+        width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 6px 0 6px;
+    border-color: gray transparent transparent transparent;
+}
+
+QSpinBox::down-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 6px 0 6px;
+    border-color: gray transparent transparent transparent;
+}
+
+QSpinBox::hover {
+    background: #d0d0d0;
+}
+QSpinBox::pressed {
+    background: #c8c8c8;
+}</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>250</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+font: 75 9pt &quot;MS Shell Dlg 2&quot;;
+font-weight: bold;}</string>
+     </property>
+     <property name="text">
+      <string>Consomation:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>120</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+font: 75 9pt &quot;MS Shell Dlg 2&quot;;
+font-weight: bold;}</string>
+     </property>
+     <property name="text">
+      <string>ID de station:</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>390</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+ background: rgb(66, 117, 102);
+border-radius:10px;
+border-style:solid;
+border-width:2px;
+border-color:#9999aa;
+color:white;
+}
+QPushButton:enabled{
+ background-color: rgb(66, 117, 102);
+color:white;
+}
+
+QPushButton:pressed{
+ background-color: qlineargradient(spread:pad, x1:0.5, y1:0.0342727, x2:0.5, y2:1, stop:0 rgba(0, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+color:#fffffe;
+}
+
+QPushButton:hover:!pressed{
+ background-color:   rgb(221,222,217);
+color:#0c2f70;
+}
+
+QPushButton:disabled{
+background-color:rgb(66, 117, 102);
+color:#ffffff;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Valider</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

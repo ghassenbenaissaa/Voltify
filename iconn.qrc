@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>ICON/278261042_5242060219164606_8744602465667434102_n.png</file>
+        <file>ICON/278717090_465620745314700_6179097996270868039_n.png</file>
+        <file>ICON/331021796_4060633687495639_3024885960259443867_n.png</file>
+        <file>ICON/corbeille.png</file>
+        <file>ICON/loo.png</file>
+        <file>ICON/llll.png</file>
+        <file>ICON/economie-denergie.png</file>
+        <file>ICON/economie-denergie2.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>ICON/326132086_1377220566362323_2334973245028434171_n.png</file>
+        <file>ICON/326253185_1247096072879450_2122464190835713788_n.png</file>
+        <file>ICON/326421902_3390623604598503_20181722436645681_n.png</file>
+        <file>ICON/326255698_1163241431028162_7304178811197381155_n.png</file>
+        <file>ICON/profil.png</file>
+        <file>ICON/1.png</file>
+        <file>ICON/2.png</file>
+        <file>ICON/3.png</file>
+        <file>ICON/4.jpg</file>
+        <file>ICON/pdf.png</file>
+        <file>ICON/iconPrincipale.jpg</file>
+        <file>MUSIC/mixkit-bubble-pop-up-alert-notification-2357.wav</file>
+    </qresource>
+</RCC>

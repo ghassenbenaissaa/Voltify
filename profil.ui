@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>profil</class>
+ <widget class="QMainWindow" name="profil">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1304</width>
+    <height>763</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Voltify</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="iconn.qrc">
+    <normaloff>:/ICON/iconPrincipale.jpg</normaloff>:/ICON/iconPrincipale.jpg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>79</x>
+      <y>0</y>
+      <width>1231</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1231</width>
+        <height>720</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../2eme/2 semaistre/projet/logoapp/photo3.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton_profil">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>80</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+qproperty-icon:url(:/ICON/profil.png);
+qproperty-iconSize:42px 50px;
+background-color:rgb(221,222,217);
+
+}
+QPushButton:hover:!pressed{  background-color: qlineargradient(spread:pad, x1:0.5, y1:0.0342727, x2:0.5, y2:1, stop:0 rgba(66, 117, 102, 255), stop:1 rgba(255, 255, 255, 255));}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_client">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>160</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+qproperty-icon:url(:/ICON/326255698_1163241431028162_7304178811197381155_n.png);
+qproperty-iconSize:48px 50px;
+background-color:rgb(221,222,217);
+}
+QPushButton:hover:!pressed{  background-color: qlineargradient(spread:pad, x1:0.5, y1:0.0342727, x2:0.5, y2:1, stop:0 rgba(66, 117, 102, 255), stop:1 rgba(255, 255, 255, 255));}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_employee">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>240</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+qproperty-icon:url(:/new/prefix1/ICON/278261042_5242060219164606_8744602465667434102_n.png);
+qproperty-iconSize:46px 50px;
+background-color:rgb(221,222,217);
+}
+QPushButton:hover:!pressed{  background-color: qlineargradient(spread:pad, x1:0.5, y1:0.0342727, x2:0.5, y2:1, stop:0 rgba(66, 117, 102, 255), stop:1 rgba(255, 255, 255, 255));}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_station">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>320</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+qproperty-icon:url(:/ICON/326421902_3390623604598503_20181722436645681_n.png);
+qproperty-iconSize:47px 50px;
+background-color:rgb(221,222,217);
+}
+
+QPushButton:hover:!pressed{  background-color: qlineargradient(spread:pad, x1:0.5, y1:0.0342727, x2:0.5, y2:1, stop:0 rgba(66, 117, 102, 255), stop:1 rgba(255, 255, 255, 255));}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_service">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>400</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+qproperty-icon:url(:/new/prefix1/ICON/278717090_465620745314700_6179097996270868039_n.png);
+qproperty-iconSize:50px 50px;
+background-color:rgb(221,222,217);
+}
+QPushButton:hover:!pressed{  background-color: qlineargradient(spread:pad, x1:0.5, y1:0.0342727, x2:0.5, y2:1, stop:0 rgba(66, 117, 102, 255), stop:1 rgba(255, 255, 255, 255));}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_stock">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>480</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+qproperty-icon:url(:/ICON/326132086_1377220566362323_2334973245028434171_n.png);
+qproperty-iconSize:50px 50px;
+background-color:rgb(221,222,217);
+}
+QPushButton:hover:!pressed{  background-color: qlineargradient(spread:pad, x1:0.5, y1:0.0342727, x2:0.5, y2:1, stop:0 rgba(66, 117, 102, 255), stop:1 rgba(255, 255, 255, 255));}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_quitter">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>640</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+qproperty-icon:url(:/new/prefix1/ICON/331021796_4060633687495639_3024885960259443867_n.png);
+qproperty-iconSize:38px 40px;
+background-color:rgb(221,222,217);
+}
+QPushButton:hover:!pressed{  background-color: qlineargradient(spread:pad, x1:0.5, y1:0.0342727, x2:0.5, y2:1, stop:0 rgba(66, 117, 102, 255), stop:1 rgba(255, 255, 255, 255));}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_reglage">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>560</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+qproperty-icon:url(:/ICON/326253185_1247096072879450_2122464190835713788_n.png);
+qproperty-iconSize:44px 44px;
+background-color:rgb(221,222,217);
+}
+QPushButton:hover:!pressed{  background-color: qlineargradient(spread:pad, x1:0.5, y1:0.0342727, x2:0.5, y2:1, stop:0 rgba(66, 117, 102, 255), stop:1 rgba(255, 255, 255, 255));}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-2</x>
+      <y>0</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(221,222,217);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../2eme/2 semaistre/projet/logoapp/tryr.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>540</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 87 8pt &quot;Segoe UI Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string> STOCK</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>4</x>
+      <y>460</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string>   SERVICE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>4</x>
+      <y>380</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string>  STATION</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>3</x>
+      <y>300</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string> EMPLOYEE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>220</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string>    CLIENT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>18</x>
+      <y>140</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string>PROFIL</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>620</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Black</family>
+      <pointsize>8</pointsize>
+      <weight>10</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string>REGLAGE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>700</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string>  QUITTER</string>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>pushButton_profil</zorder>
+   <zorder>pushButton_client</zorder>
+   <zorder>pushButton_employee</zorder>
+   <zorder>pushButton_station</zorder>
+   <zorder>pushButton_service</zorder>
+   <zorder>pushButton_stock</zorder>
+   <zorder>pushButton_reglage</zorder>
+   <zorder>stackedWidget</zorder>
+   <zorder>pushButton_quitter</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_9</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1304</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="iconn.qrc"/>
+ </resources>
+ <connections/>
+</ui>
