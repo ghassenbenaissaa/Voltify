@@ -23,7 +23,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-image: url(:/ICON/4.jpg);</string>
+    <string notr="true">background-image: url(:/icons/4.jpg);</string>
    </property>
    <widget class="QWidget" name="Station">
     <widget class="QTabWidget" name="tabWidget">
@@ -191,7 +191,7 @@ color:#ffffff;
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap resource="iconn.qrc">:/ICON/pdf.png</pixmap>
+         <pixmap resource="../resources/iconn.qrc">:/icons/pdf.png</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -257,7 +257,7 @@ color:#ffffff;
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap resource="iconn.qrc">:/new/prefix1/ICON/corbeille.png</pixmap>
+         <pixmap resource="../resources/iconn.qrc">:/new/prefix1/icons/corbeille.png</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>

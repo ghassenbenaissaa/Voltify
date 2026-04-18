@@ -24,7 +24,7 @@
    </property>
    <property name="styleSheet">
     <string notr="true">
-background-image: url(:/ICON/4.jpg);</string>
+background-image: url(:/icons/4.jpg);</string>
    </property>
    <widget class="QWidget" name="page">
     <widget class="QComboBox" name="comboBox">

@@ -14,8 +14,8 @@
    <string>Voltify</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="iconn.qrc">
-    <normaloff>:/ICON/iconPrincipale.jpg</normaloff>:/ICON/iconPrincipale.jpg</iconset>
+   <iconset resource="../resources/iconn.qrc">
+    <normaloff>:/icons/iconPrincipale.jpg</normaloff>:/icons/iconPrincipale.jpg</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true"/>
@@ -66,7 +66,7 @@
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton{
-qproperty-icon:url(:/ICON/profil.png);
+qproperty-icon:url(:/icons/profil.png);
 qproperty-iconSize:42px 50px;
 background-color:rgb(221,222,217);
 
@@ -90,7 +90,7 @@ QPushButton:hover:!pressed{  background-color: qlineargradient(spread:pad, x1:0.
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton{
-qproperty-icon:url(:/ICON/326255698_1163241431028162_7304178811197381155_n.png);
+qproperty-icon:url(:/icons/326255698_1163241431028162_7304178811197381155_n.png);
 qproperty-iconSize:48px 50px;
 background-color:rgb(221,222,217);
 }
@@ -112,7 +112,7 @@ QPushButton:hover:!pressed{  background-color: qlineargradient(spread:pad, x1:0.
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton{
-qproperty-icon:url(:/new/prefix1/ICON/278261042_5242060219164606_8744602465667434102_n.png);
+qproperty-icon:url(:/new/prefix1/icons/278261042_5242060219164606_8744602465667434102_n.png);
 qproperty-iconSize:46px 50px;
 background-color:rgb(221,222,217);
 }
@@ -133,7 +133,7 @@ QPushButton:hover:!pressed{  background-color: qlineargradient(spread:pad, x1:0.
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton{
-qproperty-icon:url(:/ICON/326421902_3390623604598503_20181722436645681_n.png);
+qproperty-icon:url(:/icons/326421902_3390623604598503_20181722436645681_n.png);
 qproperty-iconSize:47px 50px;
 background-color:rgb(221,222,217);
 }
@@ -155,7 +155,7 @@ QPushButton:hover:!pressed{  background-color: qlineargradient(spread:pad, x1:0.
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton{
-qproperty-icon:url(:/new/prefix1/ICON/278717090_465620745314700_6179097996270868039_n.png);
+qproperty-icon:url(:/new/prefix1/icons/278717090_465620745314700_6179097996270868039_n.png);
 qproperty-iconSize:50px 50px;
 background-color:rgb(221,222,217);
 }
@@ -176,7 +176,7 @@ QPushButton:hover:!pressed{  background-color: qlineargradient(spread:pad, x1:0.
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton{
-qproperty-icon:url(:/ICON/326132086_1377220566362323_2334973245028434171_n.png);
+qproperty-icon:url(:/icons/326132086_1377220566362323_2334973245028434171_n.png);
 qproperty-iconSize:50px 50px;
 background-color:rgb(221,222,217);
 }
@@ -199,7 +199,7 @@ QPushButton:hover:!pressed{  background-color: qlineargradient(spread:pad, x1:0.
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton{
-qproperty-icon:url(:/new/prefix1/ICON/331021796_4060633687495639_3024885960259443867_n.png);
+qproperty-icon:url(:/new/prefix1/icons/331021796_4060633687495639_3024885960259443867_n.png);
 qproperty-iconSize:38px 40px;
 background-color:rgb(221,222,217);
 }
@@ -220,7 +220,7 @@ QPushButton:hover:!pressed{  background-color: qlineargradient(spread:pad, x1:0.
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton{
-qproperty-icon:url(:/ICON/326253185_1247096072879450_2122464190835713788_n.png);
+qproperty-icon:url(:/icons/326253185_1247096072879450_2122464190835713788_n.png);
 qproperty-iconSize:44px 44px;
 background-color:rgb(221,222,217);
 }

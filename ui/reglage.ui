@@ -272,7 +272,7 @@ color:#ffffff;
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="iconn.qrc">:/ICON/1.png</pixmap>
+      <pixmap resource="../resources/iconn.qrc">:/icons/1.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -291,7 +291,7 @@ color:#ffffff;
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="iconn.qrc">:/ICON/2.png</pixmap>
+      <pixmap resource="../resources/iconn.qrc">:/icons/2.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -310,7 +310,7 @@ color:#ffffff;
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="iconn.qrc">:/ICON/3.png</pixmap>
+      <pixmap resource="../resources/iconn.qrc">:/icons/3.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>

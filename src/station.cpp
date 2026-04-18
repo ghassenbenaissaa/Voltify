@@ -585,8 +585,8 @@ void station::generatePDF(QString filename)
     }
 
     // Ajouter le logo
-    painter.drawPixmap(30,25,QPixmap(":/new/prefix1/ICON/loo.png"));
-    painter.drawPixmap(-200,-200,QPixmap(":/new/prefix1/ICON/llll.png"));
+    painter.drawPixmap(30,25,QPixmap(":/new/prefix1/icons/loo.png"));
+    painter.drawPixmap(-200,-200,QPixmap(":/new/prefix1/icons/llll.png"));
 
     // Ajouter le titre
         QString title = "LES STATIONS";
@@ -939,10 +939,10 @@ void station::afficherImageSelonMode() {
     if (query.exec() && query.next()) {
         int count = query.value(0).toInt();
         if (count > 0) {
-            QPixmap image(":/new/prefix1/ICON/economie-denergie.png"); // charger l'image X depuis les ressources de l'application
+            QPixmap image(":/new/prefix1/icons/economie-denergie.png"); // charger l'image X depuis les ressources de l'application
             ui->label_4->setPixmap(image);
         } else {
-            QPixmap image(":/new/prefix1/ICON/economie-denergie2.png"); // charger l'image Y depuis les ressources de l'application
+            QPixmap image(":/new/prefix1/icons/economie-denergie2.png"); // charger l'image Y depuis les ressources de l'application
             ui->label_4->setPixmap(image);
         }
     } else {
