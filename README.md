@@ -229,11 +229,9 @@ Voltify/
 
 ---
 
-## Screenshots
+## Award
 
-> *Screenshots can be added in a `/screenshots` directory*
-
----
+This project was presented at the **Bal de Projet** event at ESPRIT School of Engineering and was awarded **1st Prize for Best Application** across all classes, under the **Sustainable Development Goals (SDG)** theme.
 
 ## License
 
